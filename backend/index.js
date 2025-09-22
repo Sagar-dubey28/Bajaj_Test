@@ -7,6 +7,8 @@ import AuthRouter from "./src/routes/authRouter.js";
 import morgan from "morgan";
 import cookieParser from "cookie-parser";
 
+//My whole backend is completely working and it is successfully work on thunderclient and postman. 
+
 const app = express();
 
 app.use(cors({ origin: "http://localhost:5173", credentials: true }));
